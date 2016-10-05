@@ -15,5 +15,6 @@
 //= require bower_components/angular/angular
 //= require angular-rails-templates
 //= require bower_components/angular-ui-router/release/angular-ui-router
-//= require_tree .
-
+//= require app/app 
+//= require_tree ./app/templates 
+//= require_tree ./app/controllers

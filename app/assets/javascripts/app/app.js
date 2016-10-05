@@ -4,7 +4,7 @@ angular
     $stateProvider
       .state('home', {
         url: '/',
-        template: 'home_controller_template.html',
+        templateUrl: 'templates/home_controller_template.html',
         controller: 'HomeController as ctrl'
       });
     $urlRouterProvider.when('', '/');

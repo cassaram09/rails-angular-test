@@ -1,12 +1,14 @@
 <h1>I'm the Index page</h1>
 
 <div ng-app='app'>
-  <div ui-view="home"></div>
-<div ng-controller='HomeController as ctrl'>
-  {{ctrl.name}}
-</div>
+  <div ng-controller='HomeController as ctrl'>
+    {{ctrl.name}}
+  </div>
+
+  Ui-view content:
+  <ui-view></ui-view>
 </div>
 
-Ui-view content:
+
 
 
